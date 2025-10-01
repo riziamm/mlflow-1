@@ -11,7 +11,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "2DClassifier"
+project_name = "twoDClassifier"
 
 # List of files to be created
 list_of_files = [
@@ -36,7 +36,7 @@ list_of_files = [
 
 # create the template folder stucture with files listed in list_of_files
 for filepath in list_of_files:
-    filepath = Path(filepath)
+    filepath = Path(filepath) #fixes path issues across OS
     filedir, filename = os.path.split(filepath)
 
 # Create directory if it does not exist

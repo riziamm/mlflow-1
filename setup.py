@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "mlflow-1"
 AUTHOR_USER_NAME = "riziamm"
-SRC_REPO = "2DClassifier"
+SRC_REPO = "twoDClassifier"
 AUTHOR_EMAIL = "riziamm9@gmail.com"
 
 # setup function to setup the package details
